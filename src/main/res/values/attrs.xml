@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="day">
+        <attr name="state_current" format="boolean" />
+    </declare-styleable>
+
+    <attr name="calendarViewStyle" format="reference" />
+    <declare-styleable name="FoowwCalendarView">
+        <attr name="haveList" format="boolean" />
+        <attr name="listBgColor" format="integer" />
+        <attr name="calendarBgColor" format="integer" />
+        <attr name="calendarBgDrawable" format="integer" />
+        <attr name="numDateColor" format="integer" />
+        <attr name="chinaDateColor" format="integer" />
+        <attr name="currentDateBgColor" format="integer" />
+        <attr name="selectedDateBgColor" format="integer" />
+        <attr name="outMonthColor" format="integer" />
+        <attr name="inMonthColor" format="integer" />
+        <attr name="showChinaDate" format="boolean" />
+        <attr name="showholiday" format="boolean" />
+    </declare-styleable>
+</resources>
